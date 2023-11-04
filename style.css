@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navbar section */
+.parent{
+    padding-top: 20px;
+    height: 110px;
+    background-color: #f7f8f8;
+}
+.olxblue{
+    padding-left: 40px;
+}
+.navbar{
+    padding-left: 40px;
+}
+.nava{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.olxblack{
+    margin-left: 45px;
+    margin-top: 25px;
+}
+.inp1{
+    height: 40px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-image: url(./images/search.png);
+    background-size: cover;
+    background-size: 20px;
+    background-repeat:no-repeat;
+    padding-left: 50px;
+    background-position: 10px;
+    position: relative;
+    top: -15px;
+}
+.inp1::placeholder{
+    font-size: 17px;
+    color: black;
+    opacity: 0.7;
+}
+.inp2{
+    height: 40px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+    position: relative;
+    top: -15px;
+    padding-left: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWw_dz8j5Eu06qGZamdTNLQBEVYYMjqvAwSQ&usqp=CAU);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-size: 45px;
+    background-position: right;
+}
+.inp2::placeholder{
+    font-size: 17px;
+    color: black;
+    opacity: 0.7;
+}
+.login{
+    font-size: 17px;
+    margin-left: 20px;
+    position: relative;
+    top: -12px;
+    color: black;
+    font-weight: 550;
+}
+.nav-button img{
+    height: 16px;
+}
+.nav-button{
+    font-size: 16px;
+    font-weight: 550;
+    border-top: 5px solid rgb(152, 245, 248);
+    border-radius: 20px;
+    padding: 5px;
+    border-left: 5px solid yellow;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid blue;
+    position: relative;
+    top: -12px;
+    margin-left: 10px;
+}
+/* link section */
+.ahref{
+    padding-top: 20px;
+}
+.aa{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+    color: black;
+    font-weight: 550;
+}
+.all{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    font-size: 15px;
+}
+.hr{
+    margin-top: 20px;
+    opacity: 0.4;
+}
+.display{
+    padding: 20px;
+    margin-left: 10px;
+}
+.display2{
+    margin-left: 280px;
+}
+/* logos section */
+
+.categories-item{
+    width: 95%;
+    margin: auto;
+}
+
+.categories-item ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+    margin: 20px;
+
+}
+
+.categories-item img{
+    height: 14vh;
+}
+
+.categories-item li{
+    font-weight: 550;
+}
+.head{
+    margin-left: 20px;
+}
+.electronics-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item-head {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top:70px ;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.view-more a{
+    color: #3a8cff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.box-item{
+    /* height: 350px; */
+    width:24%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.box-img img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.heart-logo img{
+    height: 20px;
+    width: 20px;
+}
+
+.heart-logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.user-detail{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ad-address{
+    opacity: 0.7;
+    font-size: 14px;
+}
+.ad-date{
+    opacity: 0.7;
+    font-size: 14px;
+}
+.foot{
+    width: 95%;
+    height: 220px;
+    margin: 20px;
+}
+.foot-container{
+    background-color: #ebeeef;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 180px;
+}
+
+.foot-item{
+    line-height: 20px;
+    margin: 10px;
+    opacity: 0.9;
+}
+
+.foot-item ul{
+    list-style-type: none;
+}
+
+.foot-item a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.foot-item img{
+    height: 25px;
+}
+
+.last-section{
+    background-color: #002f34;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.last-section p{
+    color: white;
+    font-size: 12px;
+    margin: 10px;
+}
